@@ -5,7 +5,14 @@
   "repository": "git@github.com:peterfication/my-pi.git",
   "author": "Peter Morgenstern",
   "license": "MIT",
+  "scripts": {
+    "format": "biome format --write",
+    "lint": "biome lint --write"
+  },
   "dependencies": {
     "@mariozechner/pi-coding-agent": "^0.55.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.4"
   }
 }
