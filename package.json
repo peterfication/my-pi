@@ -1,0 +1,11 @@
+{
+  "name": "my-pi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:peterfication/my-pi.git",
+  "author": "Peter Morgenstern",
+  "license": "MIT",
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "^0.55.3"
+  }
+}
