@@ -1,18 +1,21 @@
 {
   "name": "my-pi",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "repository": "git@github.com:peterfication/my-pi.git",
   "author": "Peter Morgenstern",
   "license": "MIT",
   "scripts": {
     "format": "biome format --write",
-    "lint": "biome lint --write"
+    "lint": "biome lint --write",
+    "typecheck": "tsgo --noEmit"
   },
   "dependencies": {
     "@mariozechner/pi-coding-agent": "^0.55.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.4"
+    "@biomejs/biome": "^2.4.4",
+    "@typescript/native-preview": "^7.0.0-dev.20260301.1"
   }
 }
